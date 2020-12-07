@@ -1,0 +1,73 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Century Gothic, CenturyGothic,AppleGothic,sans-serif;
+}
+
+.contenedor{
+    background-color: #ededed;
+    width: fit-content;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.sr{
+    padding: 0px 18px 18px 18px;
+}
+
+.sr button{
+    width: 100%;
+    background-color: #48c;
+    color: #fff;
+    border: none;
+}
+
+.teclas{
+    display: flex;
+}
+
+.pantalla{
+    padding: 18px 18px 0px 18px;
+}
+.numeros{
+    padding: 18px 9px 18px 18px;
+}
+
+.op{
+    padding: 18px 18px 18px 9px;
+}
+
+#resultado{
+    background-color: #666;
+    color: #eee;
+    padding: 9px;
+}
+
+.op button{
+    display: block;
+    width: 54px;
+    height: 54px;
+    padding: 9px 15px;
+    
+}
+
+.numeros div{
+    text-align: center;
+    background-color: black;
+}
+
+.numeros button{
+    border: 0px;
+    background-color: #ffffff;
+    transition: all 0.9s;
+}
+.numeros button:hover{
+    box-shadow: 0px 0px 12px #ccc;
+    background-color: #ccc;
+}
+
+button {
+    margin: 2px 0px;
+    padding: 15px 24px;
+    font-size: 19px;
+}
